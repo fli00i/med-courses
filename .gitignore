@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Environnement / secrets
+.env
+.env.local
+*.key
+
+# Audio / vidéo (gros fichiers)
+# Décommenter si tu ne veux PAS versionner les audios :
+# *.mp3
+# *.wav
+# *.m4a
+# *.mp4
+
+# Fichiers temporaires de chunks
+chunks/
+output/
+*.tmp
+
+# Référentiels (potentiellement sous copyright)
+referentiels/colleges_edn/*.pdf
+referentiels/polycopies_alger/*.pdf
+referentiels/has_recommandations/*.pdf
+referentiels/annales_edn/*.pdf
+referentiels/annales_residanat/*.pdf
+!referentiels/**/.gitkeep
+!referentiels/**/README.md
